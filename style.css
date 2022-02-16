@@ -1,0 +1,188 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&display=swap");
+:root {
+  --light-gray: hsl(0, 0%, 81%);
+  --light-grayish-blue: hsl(210, 33%, 92%);
+  --modarate-violet: hsl(263, 55%, 52%);
+  --dark-grayish-blue: hsl(217, 19%, 35%);
+  --dark-blackish-blue: hsl(219, 29%, 14%);
+  --white: hsl(0, 0%, 100%);
+  --light-white: rgba(255, 255, 255, 0.5);
+  --black: hsl(0, 0%, 0%);
+  --body-font: "Barlow Semi Condensed", sans-serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 13px;
+}
+body{
+  background-color: var(--light-grayish-blue);
+  font-family: var(--body-font);
+  width: 100vw;
+  height: 100vh;
+}
+main{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.testimonials-section{
+  height: 43.8rem;
+  width: 88.5rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 1.5rem;
+}
+.section-1,.section-2,.section-3,.section-4,.section-5{
+  padding: 1.7rem;
+  border-radius: 0.5rem;
+}
+
+.section-1 {
+  background-image: url("images/bg-pattern-quotation.svg") no-repeat;
+  grid-column: span 2;
+  background-color: var(--modarate-violet);
+}
+.section-2 {
+  background-color: var(--dark-grayish-blue);
+}
+.section-3 {
+  grid-row: span 2;
+}
+.section-5 {
+  background-color: var(--dark-blackish-blue);
+  grid-column: span 2;
+}
+.section-1 .author-info,
+.section-2 .author-info,
+.section-5 .author-info {
+  color: var(--white);
+  font-weight: 500;
+}
+
+.author {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+ .author-img {
+  border-radius: 50%;
+  width: 2.5rem;
+  height: 2.5rem;
+} 
+
+.section-3 .author-info,
+.section-4 .author-info .section-3 .highlight-content,
+.section-4 .highlight-content {
+  color: var(--dark-grayish-blue);
+}
+.author-describtion,
+.content {
+  opacity: 50%;
+}
+.author-describtion {
+  font-size: 11px;
+}
+.section-3, .section-4{
+  background-color: var(--light-white);
+  box-shadow: 1rem 1rem 3.5rem 0.5rem rgba(29, 28, 28, 0.2) ;
+}
+
+.section-5 .author-img {
+  border-color: var(--modarate-violet);
+}
+
+.section-1 .author-img {
+  border-color: var(--light-white);
+}
+.cont,.highlight-content{
+  color: var(--white);
+}
+
+.content {
+  font-size: 1rem;
+  padding-top: 0.4rem;
+  line-height: 1.4rem;
+}
+
+.highlight-content {
+  font-size: 1.42rem;
+  word-spacing: 1.7px;
+  margin: 1.8rem 0;
+}
+
+#cont-3{
+  color: var(--dark-blackish-blue);
+}
+
+.section-2 .content,
+.section-3 .content{
+ padding: 0 0.5rem;
+}
+@media(max-width:374px){
+  .testimonials-section{
+    margin-top: 5rem;
+    margin: 2rem;
+  }
+  .section-1,.section-2,.section-3,.section-4,.section-5{
+    padding: 2rem 2.9rem;
+  }
+  .section-1{
+    grid-column:span 4 ;
+    grid-row: span 4;
+  }
+  .section-2 {
+    grid-column: span 4;
+    grid-row: span 2;
+  }
+  .section-3 {
+    grid-row: span 1;
+    grid-column: span 4;
+    order:5 ;
+  }
+ .section-4{
+   grid-row:span 3 ;
+   grid-column:span 4;
+ }
+ .section-5{
+   grid-row: span 3;
+   grid-column: span 4;
+ }
+}
+/* 
+
+
+
+
+.section-1 .author-img,
+.section-5 .author-img {
+  border-style: solid;
+  border-width: 2px;
+}
+
+
+
+@media screen and (max-width: 1201px) {
+  .testimonials-section {
+    margin-top: 5.385rem;
+  }
+  
+}
+
+@media screen and (max-width: 801px) {
+  .testimonials-section > * {
+    grid-column: span 4;
+    grid-row: span 1;
+  }
+} */
