@@ -160,29 +160,3 @@ main{
    grid-column: span 4;
  }
 }
-/* 
-
-
-
-
-.section-1 .author-img,
-.section-5 .author-img {
-  border-style: solid;
-  border-width: 2px;
-}
-
-
-
-@media screen and (max-width: 1201px) {
-  .testimonials-section {
-    margin-top: 5.385rem;
-  }
-  
-}
-
-@media screen and (max-width: 801px) {
-  .testimonials-section > * {
-    grid-column: span 4;
-    grid-row: span 1;
-  }
-} */
