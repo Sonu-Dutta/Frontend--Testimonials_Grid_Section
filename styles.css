@@ -38,14 +38,15 @@ main.container{
 }
 
 .testimonials-section{
-  height: 100vh;
+  height: 70rem;
   width: 100%;
   display: grid;
   grid-template-rows: repeat(4, 1fr);
   grid-gap: 1.5rem;
   margin: 2rem;
-  margin-top: 2rem;
-  margin-bottom: 20rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+
 }
 .section-1,.section-2,.section-3,.section-4,.section-5{
   padding: 1.7rem;
@@ -136,7 +137,6 @@ main.container{
     margin-top: 41rem;
     grid-template-columns: repeat(4,1fr);
     grid-gap: 1.4rem;
-    margin-bottom: 20rem;
   }
   .section-1{
     order: 1;
