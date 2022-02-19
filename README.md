@@ -19,8 +19,8 @@ Your users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Sonu-Dutta/Frontend--Testimonials_Grid_Section)
-- Live Site URL: [Add live site URL here](https://frontend-testimonials-grid-section.vercel.app/)
+- Solution URL: (https://github.com/Sonu-Dutta/Frontend--Testimonials_Grid_Section)
+- Live Site URL: (https://frontend-testimonials-grid-section.vercel.app/)
 
 ## My process
 
